@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /index.html
+  - title: "Projects"
+    url: /projects.html
+  - title: "Work Experience"
+    url: /#work-experience
+  - title: "Education"
+    url: /#education
+  - title: "Certifications, Skills & Interests"
+    url: /#certifications-skills-interests
