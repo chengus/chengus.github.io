@@ -1,5 +1,5 @@
 # Lucent Lu
-📧 [chenglu.lucent@gmail.com](mailto:chenglu.lucent@gmail.com) | 🇺🇸 +1 (518) 308-5560 | 🇭🇰+852 97945525 | Troy, NY & Hong Kong | [Portfolio](https://lucent-lu.me)
+📧 [chenglu.lucent@gmail.com](mailto:chenglu.lucent@gmail.com) | 🇺🇸 +1 (518) 308-5560 | 🇭🇰+852 97945525 | Troy, NY & Hong Kong | [Website](https://lucent-lu.me)
 
 ---
 
