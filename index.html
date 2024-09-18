@@ -5,52 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucent Lu - Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/3.0.0/pure-min.css" integrity="sha512-X2yGIVwg8zeG8N4xZWlFTZl1K2/P8gUFxpuKDUjK2AxdOZMsaVNbaeBaA+oMvzW0gPCvZmk9Xuqq3xP7vIdASg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .banner {
-            width: 100%;
-            height: 200px;
-            background-image: url("assets/banner.png");
-            background-size: cover;
-            background-position: center;
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 2em;
-        }
-        .contact-info {
-            font-size: 0.9em;
-            margin-bottom: 1em;
-        }
-        .section {
-            margin-bottom: 2em;
-        }
-        .pure-menu-link {
-            color: #3498db;
-        }
-        .pure-menu-link:hover {
-            background-color: #f0f0f0;
-        }
-        @media (max-width: 48em) {
-            .content {
-                padding: 10px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
 </head>
 <body>
     <div class="banner"></div>
@@ -58,16 +13,17 @@
         <div class="header">
             <h1>Lucent Lu</h1>
             <div class="contact-info">
-                📧 chenglu.lucent@gmail.com | 🇺🇸 +1 (518) 308-5560 | 🇭🇰 +852 97945525<br>
-                Troy, NY & Hong Kong | <a href="https://lucent-lu.me">Website</a>
+                📧 <a href="mailto:chenglu.lucent@gmail.com">chenglu.lucent@gmail.com</a> | 🇺🇸 +1 (518) 308-5560 | 🇭🇰 +852 97945525<br>
+                Troy, NY & Hong Kong | Website: <a href="https://lucent-lu.me">lucent-lu.me</a>
             </div>
         </div>
 
-        <div class="pure-menu pure-menu-horizontal">
+        <div class="pure-menu pure-menu-horizontal menu">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="https://lucent-lu.me/projects.html" class="pure-menu-link">Projects</a></li>
+                <!--<li class="pure-menu-item"><a href="https://lucent-lu.me/projects.html" class="pure-menu-link">Projects</a></li>-->
                 <li class="pure-menu-item"><a href="#work-experience" class="pure-menu-link">Work Experience</a></li>
                 <li class="pure-menu-item"><a href="#education" class="pure-menu-link">Education</a></li>
+                <li class="pure-menu-item"><a href="#volunteer" class="pure-menu-link">Volunteer</a></li>
                 <li class="pure-menu-item"><a href="#certifications-skills-interests" class="pure-menu-link">Certifications, Skills & Interests</a></li>
             </ul>
         </div>
@@ -109,6 +65,7 @@
                         <li>Certified K-12 teachers specialize in teaching computational thinking to young learners using Lego blocks, Scratch, etc.</li>
                     </ul>
                 </div>
+                <hr>
 
                 <div id="education" class="section">
                     <h2>Education</h2>
@@ -118,7 +75,8 @@
                     <p>Aug 2025 - May 2028 | Troy, NY</p>
 
                     <h3>Li Po Chun United World College of Hong Kong</h3>
-                    <p><strong>Major: International Baccalaureate - Math AA, Physics, Geography Higher Level; Chinese A, English A, Chemistry Standard Level</strong></p>
+                    <p><strong>Courses: International Baccalaureate - Math AA, Physics, Geography Higher Level; Chinese A, English A, Chemistry Standard Level; Bilingual Diploma Awarded</strong></p>
+                    <p>Programming club, Basketball team, United World Schools Team, Workout! Club</p>
                     <p>2022 - 2024 | New Territories, Hong Kong SAR</p>
 
                     <h3>American International School Kowloon, Hong Kong</h3>
@@ -128,18 +86,32 @@
                         <li>GPA: 3.96/4.0</li>
                     </ul>
                 </div>
+                <hr>
+
+                <div id="volunteer" class="section">
+                    <h2>Volunteer</h2>
+
+                    <h3>Rural Education Experts Cambodia</h3>
+                    <p><strong>Volunteer, Website Developer, Video Editor</strong> | Hong Kong | Apr. 2023 - Present</p>
+                    <ul>
+                        <li>Continuing my support from United World Schools team in highschool to help them build schools and create website for fundraising</li>
+                        <li>Created website: <a href="https://reec.org.kh">https://reec.org.kh</a></li>
+                        <li>Created video for social media: <a href="https://www.instagram.com/reec.org.kh/">@reec.org.kh</a></li>
+                    </ul>
+                </div>
+                <hr>
 
                 <div id="certifications-skills-interests" class="section">
                     <h2>Certifications, Skills & Interests</h2>
 
                     <h3>Certifications:</h3>
                     <ul>
-                        <li>Automating Real-World Tasks with Python</li>
-                        <li>Google IT Automation with Python Specialization</li>
-                        <li>Configuration Management and the Cloud</li>
+                        <li><a href="https://coursera.org/share/fe2560edaa7c3e4c0e19b31e1f6f96e7">Google IT Automation with Python</a></li>
                         <li>Troubleshooting and Debugging Techniques</li>
-                        <li>Introduction to Git and GitHub</li>
+                        <li>Automating Real-World Tasks with Python</li>
                         <li>Using Python to Interact with the Operating System</li>
+                        <li>Configuration Management and the Cloud</li>
+                        <li>Introduction to Git and GitHub</li>
                         <li>Crash Course on Python</li>
                     </ul>
 
