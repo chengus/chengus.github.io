@@ -1,7 +1,6 @@
-DESCRIPTION:
 # Lucent Lu's Personal Website
 
-This HTML file represents my personal website. I am Lucent Lu, an undergraduate student at Rensselaer Polytechnic Institute. The website showcases my education, skills, work experience, projects, activities, volunteering, and certifications.
+Hello, my name is Lucent Lu, an undergraduate student at Rensselaer Polytechnic Institute. The website is built with raw HTML and pureCSS to showcases my education, skills, work experience, projects, activities, volunteering, and certifications.
 
 ## Structure
 

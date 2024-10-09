@@ -32,7 +32,7 @@ h1, h2 {
     margin-bottom: 2em;
 }
 .pure-menu-link {
-    color: #3498db;
+    color: #0055aa;
 }
 .pure-menu-link:hover {
     background-color: #f0f0f0;
@@ -44,7 +44,6 @@ h1, h2 {
 }
 .menu {
     padding-bottom: 10px;
-
     display: inline-block;
     max-width: 100%;
     margin-left: auto;
